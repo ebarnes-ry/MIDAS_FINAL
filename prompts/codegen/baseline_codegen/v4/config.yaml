@@ -1,0 +1,1 @@
+#Prompt to acommodate for the issues of symbolic vs. numerical comparison and unreliable output of sympy.solve()

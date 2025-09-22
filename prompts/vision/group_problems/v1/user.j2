@@ -1,0 +1,10 @@
+Here are the raw text blocks from a document, identified by their unique IDs. Group them into distinct mathematical problems.
+
+{% for block in blocks %}
+- Block ID: `{{ block.id }}`
+- Content:
+{{ block.latex_content or block.html }}
+---
+{% endfor %}
+
+Generate the JSON object containing the list of problems now.

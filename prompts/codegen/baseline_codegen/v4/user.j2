@@ -1,0 +1,15 @@
+Generate a SymPy verification script for the following mathematical problem and solution.
+Adhere strictly to all rules in your system prompt to generate robust, error-proof verification code.
+
+**PROBLEM:**
+{{ reasoning.original_problem }}
+
+**WORKED SOLUTION:**
+{{ reasoning.worked_solution }}
+
+**CLAIMED FINAL ANSWER:**
+{{ reasoning.final_answer }}
+
+---
+**Guidance**: The final answer is a **{{ 'symbolic expression' if 'x' in reasoning.final_answer or 'y' in reasoning.final_answer or 'z' in reasoning.final_answer else 'numerical value' }}**. Apply the correct comparison method as defined in your rules.
+Generate the complete Python script now.

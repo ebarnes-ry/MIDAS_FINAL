@@ -1,0 +1,28 @@
+# CORE
+pydantic
+pyyaml
+pillow
+numpy
+beautifulsoup4
+python-dotenv
+sympy
+
+# MODEL PROVIDERS
+openai
+ollama
+httpx
+
+# RETRY/ERROR HANDLING
+tenacity
+
+# WEB API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# TESTING
+pytest
+pytest-asyncio
+
+# MARKER OCR - This is the correct, modern package
+marker-pdf[ocr]

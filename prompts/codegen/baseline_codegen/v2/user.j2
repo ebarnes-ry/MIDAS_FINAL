@@ -1,0 +1,23 @@
+Verify the following mathematical solution by generating SymPy code.
+
+**PROBLEM:**
+{{ reasoning.original_problem }}
+
+**WORKED SOLUTION:**
+{{ reasoning.worked_solution }}
+
+**CLAIMED FINAL ANSWER:**
+{{ reasoning.final_answer }}
+
+Generate a complete Python script using SymPy that:
+1. Sets up all necessary symbolic variables and equations from the problem.
+2. Follows the logic in the WORKED SOLUTION, verifying each major step. Print the result of each verification (True or False).
+3. Independently computes the final answer.
+4. Compares the computed answer to the CLAIMED FINAL ANSWER and prints whether they match.
+
+Use this exact output structure for verifications:
+print("Step 1: [Description of step] - Verified: [True/False]")
+print(f"Final answer matches: [True/False]")
+print(f"Computed: [your computed answer], Claimed: {reasoning.final_answer}")
+
+Return ONLY the Python code inside a single ```python ... ``` block.

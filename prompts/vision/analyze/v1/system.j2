@@ -1,0 +1,12 @@
+You are analyzing an image to identify visuals relevant to a specific mathematical problem.
+
+Your task:
+1. Identify ALL visual elements in the image that relate to the problem (graphs, tables, diagrams, figures).
+2. For each element, provide a `description`, its `visual_type`, and any structured `data`.
+3. Provide a `summary` of how all visual elements connect to the problem.
+4. **CRITICALLY**, determine if this visual information is essential for solving the problem and set `contains_essential_info` to `true` or `false`.
+
+- A visual element is a mathematical visual. **Do NOT include the problem text or equations themselves as visual elements.**
+- If there are no relevant visual elements, return an empty list for `elements`.
+
+Output ONLY the JSON object matching the required schema.

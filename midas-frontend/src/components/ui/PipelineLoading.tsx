@@ -20,16 +20,16 @@ const stageMessages: Record<ProcessingStage, string> = {
 };
 
 const stageIcons: Record<ProcessingStage, string> = {
-  idle: '⏸️',
-  uploading: '📤',
-  validating: '🔎',
-  processing: '⚙️',
-  analyzing: '🔍',
-  thinking: '🧠',
-  solving: '💭',
-  writing_code: '💻',
-  complete: '✅',
-  error: '❌',
+  idle: '...',
+  uploading: 'uploading',
+  validating: 'validating',
+  processing: 'processing',
+  analyzing: 'looking',
+  thinking: 'thinking',
+  solving: 'solving',
+  writing_code: 'coding',
+  complete: 'Done!',
+  error: 'yikes',
 };
 
 export const PipelineLoading: React.FC<PipelineLoadingProps> = ({ stage, message }) => {
